@@ -3,7 +3,7 @@ const router=express.Router();
 
 //database schema
 
-const SignupTemplatecopy=require('../model/Signupmodel');//database schemea;
+const SignupTemplatecopy=require('Signupmodel');//database schemea;
 
 router.post("/signup",(request,response)=>
     {
