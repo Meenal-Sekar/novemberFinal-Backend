@@ -1,0 +1,11 @@
+
+POST http://localhost:4005/app/signup
+Content-Type: application/json
+
+{
+    "name":"rajan",
+    "email":"rajan@gmail.com",
+    "contact":"1234567890",
+    "age":"34",
+    "jobRole":"Designer"
+}
