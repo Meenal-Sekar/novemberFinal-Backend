@@ -1,7 +1,7 @@
 const express=require('express');
 const app=express();
 const mongoose = require('mongoose');
-const routerurl=require('./routes/routes')  //router-js
+const routerurl=require('routes')  //router-js
 const cors=require('cors'); //supporting middleware package
 
 app.use(express.json());//middleware
